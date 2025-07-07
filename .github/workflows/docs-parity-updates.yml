@@ -75,7 +75,7 @@ jobs:
 
       - name: Download coverage (capture-notimplemented) data from Community pipeline (GitHub)
         working-directory: docs
-        run: /tmp/get_latest_github_metrics.sh ./target ci/separate-parity-artifacts
+        run: /tmp/get_latest_github_metrics.sh ./target master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY_NAME: localstack
