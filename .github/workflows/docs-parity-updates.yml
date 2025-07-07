@@ -71,7 +71,6 @@ jobs:
           REPOSITORY_NAME: localstack
           ARTIFACT_ID: test-results-integration-amd*
           WORKFLOW: "AWS / Build, Test, Push"
-          PREFIX_ARTIFACT: community-integration-test
 
       - name: Download coverage (capture-notimplemented) data from Community pipeline (GitHub)
         working-directory: docs
