@@ -65,23 +65,23 @@ jobs:
 
       - name: Download metrics data from Community pipeline (GitHub)
         working-directory: docs
-        run: /tmp/get_latest_github_metrics.sh ./target master
+        run: /tmp/get_latest_github_metrics.sh ./target ci/separate-parity-artifacts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY_NAME: localstack
-          ARTIFACT_ID: test-results-integration-amd*
+          ARTIFACT_ID: parity-metric-raw-amd*
           WORKFLOW: "AWS / Build, Test, Push"
+          PREFIX_ARTIFACT: community-integration-test
 
       - name: Download coverage (capture-notimplemented) data from Community pipeline (GitHub)
         working-directory: docs
-        run: /tmp/get_latest_github_metrics.sh ./target master
+        run: /tmp/get_latest_github_metrics.sh ./target ci/separate-parity-artifacts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY_NAME: localstack
           ARTIFACT_ID: capture-notimplemented
           WORKFLOW: "AWS / Build, Test, Push"
           RESOURCE_FOLDER: "metrics-implementation-details/community"
-
 
       - name: Create Parity Coverage Docs
         working-directory: docs
