@@ -148,7 +148,7 @@ def main(
     #   }
     # }
     with open(
-        f"{path_to_implementation_details}/pro/implementation_coverage_full.csv",
+        f"{path_to_implementation_details}/implementation_coverage_full.csv",
         mode="r",
     ) as file:
         # check pro implementation details first
