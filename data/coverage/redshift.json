@@ -1,6 +1,5 @@
 {
   "service": "redshift",
-  "pro_support": true,
   "community_support": true,
   "operations": [
     {
@@ -43,11 +42,11 @@
       "AuthorizeClusterSecurityGroupIngress": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
         "terraform_test_suite": false,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -151,11 +150,11 @@
       "CreateCluster": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -163,10 +162,10 @@
       "CreateClusterParameterGroup": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
-        "aws_validated": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
+        "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
       }
@@ -175,11 +174,11 @@
       "CreateClusterSecurityGroup": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
         "terraform_test_suite": false,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -188,8 +187,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -199,11 +198,11 @@
       "CreateClusterSubnetGroup": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -308,8 +307,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -332,7 +331,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -379,11 +378,11 @@
       "DeleteCluster": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -391,10 +390,10 @@
       "DeleteClusterParameterGroup": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
-        "aws_validated": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
+        "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
       }
@@ -404,7 +403,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -416,8 +415,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -427,11 +426,11 @@
       "DeleteClusterSubnetGroup": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -560,8 +559,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -584,7 +583,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -655,9 +654,9 @@
       "DescribeClusterParameterGroups": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -665,11 +664,11 @@
     },
     {
       "DescribeClusterParameters": {
-        "implemented": true,
-        "availability": "pro",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "implemented": false,
+        "availability": "",
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -679,11 +678,11 @@
       "DescribeClusterSecurityGroups": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
         "terraform_test_suite": false,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -692,8 +691,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -704,8 +703,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -739,11 +738,11 @@
       "DescribeClusters": {
         "implemented": true,
         "availability": "community",
-        "internal_test_suite": true,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
-        "aws_validated": true,
-        "snapshot_tested": true,
+        "internal_test_suite": false,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
+        "aws_validated": false,
+        "snapshot_tested": false,
         "snapshot_skipped": ""
       }
     },
@@ -797,9 +796,9 @@
     },
     {
       "DescribeDefaultClusterParameters": {
-        "implemented": true,
-        "availability": "pro",
-        "internal_test_suite": true,
+        "implemented": false,
+        "availability": "",
+        "internal_test_suite": false,
         "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
@@ -920,8 +919,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -1040,8 +1039,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -1088,7 +1087,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1112,7 +1111,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1124,7 +1123,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1148,8 +1147,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -1160,8 +1159,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -1184,8 +1183,8 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
-        "terraform_test_suite": true,
+        "external_test_suite": false,
+        "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
         "snapshot_skipped": ""
@@ -1280,7 +1279,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1448,7 +1447,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1484,7 +1483,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1580,7 +1579,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1604,7 +1603,7 @@
         "implemented": true,
         "availability": "community",
         "internal_test_suite": false,
-        "external_test_suite": true,
+        "external_test_suite": false,
         "terraform_test_suite": false,
         "aws_validated": false,
         "snapshot_tested": false,
@@ -1672,576 +1671,5 @@
       }
     }
   ],
-  "details": {
-    "AuthorizeClusterSecurityGroupIngress": {
-      "CIDRIP, ClusterSecurityGroupName": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_cluster_security_groups",
-            "test": "test_cluster_security_groups",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "CreateCluster": {
-      "ClusterIdentifier, ClusterParameterGroupName, ClusterSubnetGroupName, ClusterType, DBName, MasterUserPassword, MasterUsername, NodeType": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          }
-        ]
-      },
-      "ClusterIdentifier, ClusterSubnetGroupName, ClusterType, DBName, IamRoles, MasterUserPassword, MasterUsername, NodeType, NumberOfNodes, PubliclyAccessible, VpcSecurityGroupIds": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/scenario/kinesis_firehose_redshift/test_kinesis_firehose_redshift.py::TestKinesisFirehoseScenario::test_kinesis_firehose_redshift",
-            "test": "test_kinesis_firehose_redshift",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "internal"
-          }
-        ]
-      },
-      "ClusterIdentifier, ClusterType, DBName, MasterUserPassword, MasterUsername, NodeType": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/cloudformation/resources/test_redshift.py::test_redshift_cluster",
-            "test": "test_redshift_cluster",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          }
-        ]
-      },
-      "ClusterIdentifier, DBName, MasterUserPassword, MasterUsername, NodeType": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/firehose/test_firehose.py::TestFirehoseIntegration::test_firehose_redshift_as_target",
-            "test": "test_firehose_redshift_as_target",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_cluster",
-            "test": "test_create_cluster",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_redshift_connector",
-            "test": "test_redshift_connector",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      },
-      "ClusterIdentifier, MasterUserPassword, MasterUsername, NodeType, NumberOfNodes, PubliclyAccessible": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_clusters",
-            "test": "test_create_clusters",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "CreateClusterParameterGroup": {
-      "Description, ParameterGroupFamily, ParameterGroupName": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_parameter_group",
-            "test": "test_parameter_group",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "CreateClusterSecurityGroup": {
-      "ClusterSecurityGroupName, Description": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_cluster_security_groups",
-            "test": "test_cluster_security_groups",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "CreateClusterSubnetGroup": {
-      "ClusterSubnetGroupName, Description, SubnetIds": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/scenario/kinesis_firehose_redshift/test_kinesis_firehose_redshift.py::TestKinesisFirehoseScenario::test_kinesis_firehose_redshift",
-            "test": "test_kinesis_firehose_redshift",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          }
-        ]
-      }
-    },
-    "DeleteCluster": {
-      "ClusterIdentifier": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/cloudformation/resources/test_redshift.py::test_redshift_cluster",
-            "test": "test_redshift_cluster",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          }
-        ],
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/scenario/kinesis_firehose_redshift/test_kinesis_firehose_redshift.py::TestKinesisFirehoseScenario::test_kinesis_firehose_redshift",
-            "test": "test_kinesis_firehose_redshift",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_cluster",
-            "test": "test_create_cluster",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_redshift_connector",
-            "test": "test_redshift_connector",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      },
-      "ClusterIdentifier, SkipFinalClusterSnapshot": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_clusters",
-            "test": "test_create_clusters",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ],
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/firehose/test_firehose.py::TestFirehoseIntegration::test_firehose_redshift_as_target",
-            "test": "test_firehose_redshift_as_target",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_cluster",
-            "test": "test_create_cluster",
-            "response": "400",
-            "error": "CommonServiceException",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_redshift_connector",
-            "test": "test_redshift_connector",
-            "response": "400",
-            "error": "CommonServiceException",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "DeleteClusterParameterGroup": {
-      "ParameterGroupName": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          }
-        ]
-      }
-    },
-    "DeleteClusterSubnetGroup": {
-      "ClusterSubnetGroupName": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/scenario/kinesis_firehose_redshift/test_kinesis_firehose_redshift.py::TestKinesisFirehoseScenario::test_kinesis_firehose_redshift",
-            "test": "test_kinesis_firehose_redshift",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          }
-        ]
-      }
-    },
-    "DescribeClusterParameterGroups": {
-      "ParameterGroupName": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_parameter_group",
-            "test": "test_parameter_group",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "DescribeClusterParameters": {
-      "ParameterGroupName": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_parameter_group",
-            "test": "test_parameter_group",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "DescribeClusterSecurityGroups": {
-      "ClusterSecurityGroupName": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_cluster_security_groups",
-            "test": "test_cluster_security_groups",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "external"
-          }
-        ]
-      }
-    },
-    "DescribeClusters": {
-      "- (without any parameters)": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_clusters",
-            "test": "test_create_clusters",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ],
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/firehose/test_firehose.py::TestFirehoseIntegration::test_firehose_redshift_as_target",
-            "test": "test_firehose_redshift_as_target",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/iam/test_iam_enforcement.py::TestIAMEnforcementIdentityBasedPolicies::test_enforce_policy_redshift",
-            "test": "test_enforce_policy_redshift",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_cluster",
-            "test": "test_create_cluster",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_redshift_connector",
-            "test": "test_redshift_connector",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/iam/test_iam_enforcement.py::TestIAMEnforcementIdentityBasedPolicies::test_enforce_policy_redshift",
-            "test": "test_enforce_policy_redshift",
-            "response": "400",
-            "error": "CommonServiceException",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      },
-      "ClusterIdentifier": {
-        "ls_community": [
-          {
-            "node_id": "LocalStack Community: tests/aws/services/cloudformation/resources/test_redshift.py::test_redshift_cluster",
-            "test": "test_redshift_cluster",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Community: tests/aws/services/cloudformation/resources/test_redshift.py::test_redshift_cluster",
-            "test": "test_redshift_cluster",
-            "response": "400",
-            "error": "CommonServiceException",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Community: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_clusters",
-            "test": "test_create_clusters",
-            "response": "400",
-            "error": "CommonServiceException",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ],
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/scenario/kinesis_firehose_redshift/test_kinesis_firehose_redshift.py::TestKinesisFirehoseScenario::test_kinesis_firehose_redshift",
-            "test": "test_kinesis_firehose_redshift",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/firehose/test_firehose.py::TestFirehoseIntegration::test_firehose_redshift_as_target",
-            "test": "test_firehose_redshift_as_target",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_create_cluster",
-            "test": "test_create_cluster",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_redshift_connector",
-            "test": "test_redshift_connector",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/scenario/kinesis_firehose_redshift/test_kinesis_firehose_redshift.py::TestKinesisFirehoseScenario::test_kinesis_firehose_redshift",
-            "test": "test_kinesis_firehose_redshift",
-            "response": "400",
-            "error": "CommonServiceException",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": true,
-            "origin": "internal"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/cloudformation/resources/test_redshift.py::TestCfnRedshiftSubnet::test_docdb_resources",
-            "test": "test_docdb_resources",
-            "response": "400",
-            "error": "CommonServiceException",
-            "snapshot_skipped": "",
-            "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "internal"
-          }
-        ]
-      }
-    },
-    "DescribeDefaultClusterParameters": {
-      "ParameterGroupFamily": {
-        "ls_pro": [
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/redshift/test_redshift.py::TestRedshift::test_parameter_group",
-            "test": "test_parameter_group",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          }
-        ]
-      }
-    }
-  }
+  "details": {}
 }
